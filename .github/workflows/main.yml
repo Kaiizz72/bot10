@@ -1,0 +1,32 @@
+name: Run Mineflayer Bots
+
+on:
+  workflow_dispatch:   # bấm Run workflow để chạy tay
+
+jobs:
+  run-bots:
+    runs-on: ubuntu-latest
+
+    # Cho chạy lâu (vd 6 tiếng). Nếu để cao hơn,
+    # GitHub vẫn sẽ cắt ở giới hạn tối đa của nó.
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Start HT1 bots
+        env:
+          SERVER_HOST: node1.lumine.asia   # sửa nếu host khác
+          SERVER_PORT: 25675                     # sửa nếu port khác
+          AUTH_MODE: offline                     # hoặc 'microsoft' nếu acc premium
+        run: node bot.js
+        
