@@ -10,8 +10,8 @@ const {
 const pvp = require('mineflayer-pvp').plugin
 const { Vec3 } = require('vec3')
 
-const SERVER_HOST = process.env.SERVER_HOST || 'play2.eternalzero.cloud'
-const SERVER_PORT = Number(process.env.SERVER_PORT || 27199)
+const SERVER_HOST = process.env.SERVER_HOST || 'node1.lumine.asia'
+const SERVER_PORT = Number(process.env.SERVER_PORT || 25675)
 const AUTH_MODE = process.env.AUTH_MODE || 'offline'
 
 // 10 bot như yêu cầu
