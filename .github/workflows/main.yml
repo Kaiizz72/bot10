@@ -1,32 +1,30 @@
-name: Run Mineflayer Bots
+name: Start HT1 Bots
 
 on:
-  workflow_dispatch:   # bấm Run workflow để chạy tay
+  workflow_dispatch:  # để bạn bấm "Run workflow" bằng tay
 
 jobs:
   run-bots:
     runs-on: ubuntu-latest
-
-    # Cho chạy lâu (vd 6 tiếng). Nếu để cao hơn,
-    # GitHub vẫn sẽ cắt ở giới hạn tối đa của nó.
-    timeout-minutes: 360
+    timeout-minutes: 360   # tối đa 15 phút
 
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
 
       - name: Install deps
-        run: npm ci
+        run: npm install
 
-      - name: Start HT1 bots
+      - name: Start Dream & Marlow for 10 minutes
         env:
-          SERVER_HOST: node1.lumine.asia   # sửa nếu host khác
-          SERVER_PORT: 25675                     # sửa nếu port khác
-          AUTH_MODE: offline                     # hoặc 'microsoft' nếu acc premium
-        run: node bot.js
-        
+          SERVER_HOST: node1.lumine.asia   # đổi thành IP / domain server bạn
+          SERVER_PORT: 25675                     # đổi theo port server
+          AUTH_MODE: offline                     # hoặc 'microsoft' nếu xài acc real
+        run: |
+          timeout 60000s npm start || true
+          
