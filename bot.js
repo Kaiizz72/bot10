@@ -25,7 +25,7 @@ const BOT_NAMES = [
   'tretrauminecraft',
   'Phu2k8',
   'Linhdepgai',
-  'CraftVNHT1'
+  'CraftVNHT1',
   'HuyVPV',
   'Giabao71',
   'Kaiiz',
