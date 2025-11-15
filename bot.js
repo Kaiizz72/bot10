@@ -26,6 +26,13 @@ const BOT_NAMES = [
   'Phu2k8',
   'Linhdepgai',
   'CraftVNHT1'
+  'HuyVPV',
+  'Giabao71',
+  'Kaiiz',
+  'JasonX',
+  'NhatLMAO',
+  'Vietbuuofficial',
+  'TacoOF'
 ]
 
 // Chia team 2 đứa / team
