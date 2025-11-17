@@ -33,16 +33,7 @@ const BOT_NAMES = [
   'NhatLMAO',
   'Vietbuuofficial',
   'TacoMC',
-  'ChuBeDan',
-  'BoLaCheat',
-  'ConMeMay',
-  'xMarlpx',
-  'emyeuanhhoang',
-  'Juan_Clean',
-  'HungF',
-  'KhanggVN',
-  'TigerrVN',
-  'NoobGaming'
+  'ChuBeDan'
 ]
 
 // Chia team 2 đứa / team
