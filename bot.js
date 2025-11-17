@@ -30,7 +30,7 @@ const BOT_NAMES = [
   'Giabao71',
   'Kaiiz',
   'Jason',
-  'NhatLMAO',
+  'NhatLMAOO',
   'Vietbuuofficial',
   'TacoMC',
   'ChuBeDan'
