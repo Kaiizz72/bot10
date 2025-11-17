@@ -33,7 +33,32 @@ const BOT_NAMES = [
   'NhatLMAOO',
   'Vietbuuofficial',
   'TacoMC',
-  'ChuBeDan'
+  'ChuBeDan',
+  'Nguyenaz',
+  'jwhwvhw',
+  'jqhqb',
+  'lqojj',
+  'kqji',
+  'owie',
+  'ueyh',
+  'qooq',
+  'kdjue',
+  'brhev',
+  'whne',
+  'henvud',
+  'iebii',
+  'eplis',
+  'neoeow',
+  'bwuevsi',
+  'jsuebei',
+  'fsuebx',
+  'eiehen',
+  'eiehwns',
+  'wowjendj',
+  'wuwneisj',
+  'jwnwiekej',
+  'eoenbdj',
+  'wiwiwo'
 ]
 
 // Chia team 2 đứa / team
