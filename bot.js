@@ -16,23 +16,33 @@ const AUTH_MODE = process.env.AUTH_MODE || 'offline'
 
 // 10 bot như yêu cầu
 const BOT_NAMES = [
-  'xPVP2',
+  'xpvp99',
   'CauBeNgoc',
   'MayChemHaTinh',
-  'Memaybel',
+  'Frxnkey',
   'Bomaychaphet',
-  'noomn',
-  'tretrauminecraft',
+  'AnhEmTao',
+  'TrumSword',
   'Phu2k8',
   'Linhdepgai',
   'CraftVNHT1',
   'HuyVPV',
   'Giabao71',
   'Kaiiz',
-  'JasonX',
+  'Jason',
   'NhatLMAO',
   'Vietbuuofficial',
-  'TacoOF'
+  'TacoMC',
+  'ChuBeDan',
+  'BoLaCheat',
+  'ConMeMay',
+  'xMarlpx',
+  'emyeuanhhoang',
+  'Juan_Clean',
+  'HungF',
+  'KhanggVN',
+  'TigerrVN',
+  'NoobGaming'
 ]
 
 // Chia team 2 đứa / team
