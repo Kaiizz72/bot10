@@ -65,12 +65,7 @@ const TEAMS = {
 
 // Câu chat PvP tiếng Anh (gamer talk, không xúc phạm chủng tộc)
 const CHASE_LINES = [
-  "You can't run from me!",
-  "Come here, I'm not done yet!",
-  "Keep running, I'll catch you!",
-  "You think you can escape?",
-  "I'm on you!",
-  "Nice try, runner!"
+  ""
 ]
 
 // Giới hạn tầm đánh cận chiến cho đỡ giống reach hack
