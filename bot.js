@@ -16,49 +16,9 @@ const AUTH_MODE = process.env.AUTH_MODE || 'offline'
 
 // 10 bot như yêu cầu
 const BOT_NAMES = [
-  'xpvp99',
-  'CauBeNgoc',
-  'MayChemHaTinh',
-  'Frxnkey',
-  'Bomaychaphet',
-  'AnhEmTao',
-  'TrumSword',
-  'Phu2k8',
-  'Linhdepgai',
-  'CraftVNHT1',
-  'HuyVPV',
-  'Giabao71',
-  'Kaiiz',
-  'Jason',
-  'NhatLMAOO',
-  'Vietbuuofficial',
-  'TacoMC',
-  'ChuBeDan',
-  'Nguyenaz',
-  'jwhwvhw',
-  'jqhqb',
-  'lqojj',
-  'kqji',
-  'owie',
-  'ueyh',
-  'qooq',
-  'kdjue',
-  'brhev',
-  'whne',
-  'henvud',
-  'iebii',
-  'eplis',
-  'neoeow',
-  'bwuevsi',
-  'jsuebei',
-  'fsuebx',
-  'eiehen',
-  'eiehwns',
-  'wowjendj',
-  'wuwneisj',
-  'jwnwiekej',
-  'eoenbdj',
-  'wiwiwo'
+  'NhatLMAO',
+  'Swight',
+  'MeoSimmy'
 ]
 
 // Chia team 2 đứa / team
@@ -85,7 +45,7 @@ const CHASE_LINES = [
 ]
 
 // Giới hạn tầm đánh cận chiến cho đỡ giống reach hack
-const MAX_MELEE_RANGE = 3.05
+const MAX_MELEE_RANGE = 3.0
 
 function wait (ms) {
   return new Promise(res => setTimeout(res, ms))
