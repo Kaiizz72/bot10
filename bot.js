@@ -18,7 +18,14 @@ const AUTH_MODE = process.env.AUTH_MODE || 'offline'
 const BOT_NAMES = [
   'NhatLMAO',
   'Swight',
-  'MeoSimmy'
+  'MeoSimmy',
+  'MayChemHaTinh',
+  'Phumye2k8',
+  'Jaoebeb8',
+  'honaghhmc',
+  'Hubgf',
+  'KhanggVNMC',
+  'Huyenkhoaifo'
 ]
 
 // Chia team 2 đứa / team
