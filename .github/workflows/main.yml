@@ -22,8 +22,8 @@ jobs:
 
       - name: Start Dream & Marlow for 10 minutes
         env:
-          SERVER_HOST: node1.lumine.asia   # đổi thành IP / domain server bạn
-          SERVER_PORT: 25675                     # đổi theo port server
+          SERVER_HOST: 83.168.94.238  # đổi thành IP / domain server bạn
+          SERVER_PORT: 30144                   # đổi theo port server
           AUTH_MODE: offline                     # hoặc 'microsoft' nếu xài acc real
         run: |
           timeout 60000s npm start || true
